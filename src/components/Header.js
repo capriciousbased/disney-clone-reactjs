@@ -4,30 +4,30 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Nav>
-      <Logo src="/images/logo.svg" />
+      <Logo src="./images/logo.svg" />
       <NavMenu>
         <a>
-          <img src="./images/home-icon.svg" />
+          <img src="./images/home-icon.svg" alt=""/>
           <span>HOME</span>
         </a>
 
         <a>
-          <img src="./images/search-icon.svg" />
+          <img src="./images/search-icon.svg" alt=""/>
           <span>SEARCH</span>
         </a>
 
         <a>
-          <img src="./images/watchlist-icon.svg" />
+          <img src="./images/watchlist-icon.svg" alt="" />
           <span>WATCH LIST</span>
         </a>
 
         <a>
-          <img src="./images/original-icon.svg" />
+          <img src="./images/original-icon.svg" alt=""/>
           <span>ORIGINALS</span>
         </a>
 
         <a>
-          <img src="./images/movie-icon.svg" />
+          <img src="./images/movie-icon.svg" alt="" />
           <span>MOVIES</span>
         </a>
 
@@ -49,6 +49,7 @@ const Nav = styled.nav`
   display: flex;
   align-item: center;
   padding: 0 30px;
+  overflow-X: hidden;
 `;
 
 const Logo = styled.img`
